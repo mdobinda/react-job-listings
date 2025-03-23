@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+.button {
+    background-color: #04AA6D; /* Green */
+    disabled-background-color: #061811; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:disabled {
+    background-color: #061811; /* Green */
+  }
+
+  .button2 {
+    background-color: #6c25b4; /* Green */
+    disabled-background-color: #061811; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button2:disabled {
+    background-color: #061811; /* Green */
+  }
+
+  .button3 {
+    background-color: #ce3b1e; /* Green */
+    disabled-background-color: #061811; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button3:disabled {
+    background-color: #061811; /* Green */
+  }
