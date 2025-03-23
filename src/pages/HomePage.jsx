@@ -5,6 +5,7 @@ import JobListings from '../components/JobListings'
 import ViewAllJobs from '../components/ViewAllJobs'
 import Buttons from '../components/Buttons'
 import Slides from './Slides'
+import List from './List'
 
 
 
@@ -20,6 +21,8 @@ const HomePage = () => {
     <JobListings isHome = {true}/>
     <ViewAllJobs /> */}
     <Slides/> 
+
+    <List/> 
     </>
   )
 }

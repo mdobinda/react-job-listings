@@ -47,3 +47,8 @@
   .button3:disabled {
     background-color: #061811; /* Green */
   }
+
+  .input1 {
+    border-color: black;
+    background-color: rgb(228, 226, 226);
+  }
