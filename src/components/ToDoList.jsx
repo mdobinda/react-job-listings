@@ -15,14 +15,14 @@ const ToDoList = ( { initialList } ) => {
         const newList = [...list, {id: list.length + 1, text: text}];
         setList(newList);
         setText('');
-    }
+    }Í
 
     function deleteItem(id) {
         return () => {
             const newList = list.filter((item) => item.id !== id);
             setList(newList);
         };
-        
+
     }
 
     return (
